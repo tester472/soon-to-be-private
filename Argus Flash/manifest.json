@@ -1,0 +1,16 @@
+{
+    "name": "Argus Flash",
+    "version": "0.1.0",
+    "description": "boobs",
+    "permissions": ["storage","tabs"],
+    "content_scripts": [
+        {
+            "matches": ["http://*/*","https://*/*"],
+            "js": ["content.js"]
+        }
+    ], 
+    "action": {
+        "default_popup": "index.html"
+    },
+    "manifest_version": 3
+}
